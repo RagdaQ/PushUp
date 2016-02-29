@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="martial_status" />
+    <string-array name="Gender_name" />
+    <string-array name="type_housing" />
+    <string-array name="tenure_housing" />
+</resources>

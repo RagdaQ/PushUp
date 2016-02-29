@@ -18,6 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".signin" />
+        <activity android:name=".signup" />
+        <activity android:name=".signupII" />
+        <activity android:name=".calendar" />
+        <activity android:name=".income" />
+        <activity android:name=".incomecat" />
+        <activity android:name=".expensecat" />
+        <activity android:name=".addincome" />
+        <activity android:name=".addexpense"></activity>
     </application>
 
 </manifest>

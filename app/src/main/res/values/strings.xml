@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">PushUp</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="repet_every">
+
+        <item>Month</item>
+        <item>3 Month</item>
+        <item>6 Month</item>
+        <item>Year</item>
+    </string-array>
+
+
 </resources>
