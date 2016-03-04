@@ -38,20 +38,19 @@
         android:text="Type Of Housing Unit"
         android:id="@+id/textView8"
         android:textColor="#030000"
-        android:layout_marginBottom="27dp"
-        android:layout_above="@+id/spinnerHouse"
+        android:layout_below="@+id/numHouse"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spinnerHouse"
         android:background="#f9daa6"
-        android:layout_above="@+id/textView9"
+        android:layout_below="@+id/textView8"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="35dp" />
+        android:layout_alignParentStart="true" />
 
 
 
@@ -64,18 +63,19 @@
         android:text="Type Of Housing Tenure"
         android:id="@+id/textView9"
         android:textColor="#030000"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/spinnerHouse"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spinnerTenure"
         android:background="#f9daa6"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="30dp" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="fill_parent"

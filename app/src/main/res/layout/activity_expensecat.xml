@@ -132,7 +132,7 @@
        />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Housing and Utilities"
         android:id="@+id/button6"
@@ -145,7 +145,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Furniture and Furnishings"
         android:id="@+id/button7"
@@ -159,7 +159,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Groceries"
         android:id="@+id/button8"
@@ -172,7 +172,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Shopping"
         android:id="@+id/button9"
@@ -185,7 +185,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Medical"
         android:id="@+id/button10"
@@ -198,7 +198,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Transport"
         android:id="@+id/button11"
@@ -211,7 +211,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:text="Communication"
         android:id="@+id/button12"
@@ -224,7 +224,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="15dp"
         android:text="Education"
         android:id="@+id/button13"
@@ -238,9 +238,9 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Miscellaneous Personal Goods and Services"
+        android:text="Miscellaneous Personal "
         android:id="@+id/button14"
 
         android:layout_below="@+id/button13"
@@ -252,7 +252,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resturants and Hotels"
         android:id="@+id/button15"
@@ -265,7 +265,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Entertainment"
         android:id="@+id/button16"
@@ -278,7 +278,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Charity"
         android:id="@+id/button17"
@@ -291,7 +291,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Loan"
         android:id="@+id/button18"
@@ -304,7 +304,7 @@
         android:textSize="13dp" />
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Saving"
         android:id="@+id/button19"
@@ -315,5 +315,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginBottom="0dp"
         android:textSize="13dp" />
+
+
 
 </RelativeLayout>

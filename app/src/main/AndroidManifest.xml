@@ -26,7 +26,18 @@
         <activity android:name=".incomecat" />
         <activity android:name=".expensecat" />
         <activity android:name=".addincome" />
-        <activity android:name=".addexpense"></activity>
+        <activity android:name=".addexpense" />
+        <activity android:name=".setting" />
+        <activity android:name=".tool" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".search" />
+        <activity android:name=".user_goal" />
+        <activity android:name=".color_theme" />
+        <activity android:name=".pin_code" />
+        <activity android:name=".reminder" />
+        <activity android:name=".search_income_expense" />
+        <activity android:name=".staticlly" />
+        <activity android:name=".excle"></activity>
     </application>
 
 </manifest>

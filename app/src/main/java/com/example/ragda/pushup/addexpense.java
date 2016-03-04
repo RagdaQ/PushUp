@@ -17,6 +17,7 @@ public class addexpense extends AppCompatActivity {
 
     Spinner spinner;
     ArrayAdapter<CharSequence> adapter;
+    ArrayAdapter<CharSequence> adapter3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,18 @@ public class addexpense extends AppCompatActivity {
             }
         });
         Switch switch2 = (Switch)findViewById(R.id.switch2);
+
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                if (isChecked) {
+                    Toast.makeText(getApplicationContext(), "ON", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "OFF", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
         final Spinner repet_every = (Spinner)findViewById(R.id.spinner2);
         spinner=(Spinner)findViewById(R.id.spinner2);
 
@@ -54,17 +67,13 @@ public class addexpense extends AppCompatActivity {
             }
         });
 
+        final Spinner expense_category =(Spinner)findViewById(R.id.spinner3);
+        spinner=(Spinner)findViewById(R.id.spinner3);
+        adapter3 = ArrayAdapter.createFromResource(this, R.array.expense_category, android.R.layout.simple_spinner_item);
+        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter3);
 
-        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-                if (isChecked) {
-                    Toast.makeText(getApplicationContext(), "ON", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(getApplicationContext(), "OFF", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+
         }
     }
